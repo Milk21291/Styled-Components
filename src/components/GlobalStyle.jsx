@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: calc(9px + (18 - 9) * (100vw - 180px) / (1280 - 180)); 
 }
 
 body {
