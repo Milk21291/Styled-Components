@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import User from './UserName'
 
 export const Wrapper = styled.div`
 display: flex;
@@ -20,4 +21,8 @@ cursor: pointer;
 a:hover {
     color: #00ff00;
 }
+`
+
+export const UserName = styled(User)`
+color: white;
 `
